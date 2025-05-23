@@ -44,10 +44,10 @@ int main(){
     int mais = 0, menos = 0;
     
     for(int i = 1; i < totalU; i++){ 
-        if(cont[i] > cont[mais]) {
+        if(cont[i] > cont[mais]){
             mais = i;
         }
-        if(cont[i] < cont[menos]) {
+        if(cont[i] < cont[menos]){
             menos = i;
         }
     }
@@ -57,7 +57,7 @@ int main(){
         
         if(i == mais){
             printf(" +"); 
-        } else if (i == menos) {
+        } else if (i == menos){
             printf(" -");  
         }
         printf("\n");
